@@ -1,6 +1,6 @@
 import graphene
-from .models import Product
-from .types import ProductType
+from crm.models import Product
+from crm.types import ProductType
 
 
 class UpdateLowStockProducts(graphene.Mutation):
